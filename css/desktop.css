@@ -8,6 +8,24 @@
   .description {
     font-weight: 400;
   }
+  /* HEADER */
+  .page-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .address {
+    display: flex;
+    font-style: normal;
+  }
+  .header-active::after {
+    margin-top: 21px;
+  }
+  .contacts-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+  }
   /* HERO */
   .hero {
     padding-top: 188px;
@@ -28,6 +46,23 @@
     letter-spacing: 0.02em;
     color: var(--secondary-color);
   }
+  /* BENEFITS */
+  .benefits-section {
+    padding: 120px 0;
+  }
+  .benefits-subtitle {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .benefits-item {
+    width: calc((100% - 3 * 24px) / 4);
+  }
+  /* WORKS */
+  .works-section {
+    display: block;
+    padding-bottom: 120px;
+  }
   /* TEAM */
   .team-section {
     padding-top: 120px;
@@ -35,5 +70,28 @@
   }
   .team-card {
     width: calc((100% - 72px) / 4);
+  }
+  .modal {
+    padding: 72px 22px 24px 24px;
+  }
+}
+
+.hero {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/hero/hero@1x-desktop.webp");
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/hero/hero@2x-desktop.webp");
   }
 }

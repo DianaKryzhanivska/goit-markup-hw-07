@@ -3,11 +3,33 @@
     width: 768px;
   }
   /* HEADER */
-  .header-container {
-    display: block;
+  .page-header {
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
-  .header-btn {
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+  .header-logo {
+    margin-right: 120px;
+  }
+  .nav-list {
+    display: flex;
+  }
+  .header-active {
+    color: #404bbf;
+  }
+  .nav-item {
+    margin-right: 40px;
+  }
+  .header-mobile-btn {
     display: none;
+  }
+  .address {
+    margin-left: auto;
+    font-style: normal;
+    text-align: center;
   }
   .menu {
     display: none;
@@ -25,6 +47,34 @@
     ); */
   }
   /* HERO */
+
+  .hero {
+    max-width: 1157px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/hero/hero@1x-tablet.webp");
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url("../images/hero/hero@2x-tablet.webp");
+    }
+  }
+
+  .main-section {
+    max-width: 1157px;
+  }
+  .hero-container {
+    gap: 36px;
+  }
   .hero-title {
     color: #ffffff;
     max-width: 496px;
@@ -38,12 +88,35 @@
     font-size: 56px;
   }
   /* BENEFITS */
+
   .benefits-list {
-    row-gap: 24px;
-    column-gap: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    justify-content: space-between;
   }
+  .benefits-subtitle {
+    text-align: left;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+  }
+  .benefits-item {
+    width: calc((100% - 2 * 24px) / 2);
+  }
+  .benefits-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+
   /* TEAM */
   .team-card {
     width: calc((100% - 24px) / 2);
+  }
+  /* MODAL */
+  .modal {
+    max-width: 408px;
+    padding: 72px 23px 24px 23px;
+  }
+  .modal-caption {
+    max-width: 408px;
   }
 }

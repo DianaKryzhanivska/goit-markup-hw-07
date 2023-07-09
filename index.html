@@ -33,30 +33,32 @@
   <body>
     <!-- HEADER -->
     <header class="page-header">
-      <button type="button" class="header-btn js-open-menu">
-        <svg class="header-icon">
-          <use href="./images/icons.svg#burger-menu"></use>
-        </svg>
-      </button>
       <div class="container header-container">
         <nav class="header-nav">
-          <a href="./index.html" class="logo link">
+          <a href="./index.html" class="header-logo logo link">
             Web<span class="accent">Studio</span></a
           >
 
           <!--Site nav-->
           <ul class="nav-list list">
-            <li class="item">
+            <li class="nav-item">
               <a href="./index.html" class="nav-link header-active link"
                 >Studio</a
               >
             </li>
-            <li class="item">
+            <li class="nav-item">
               <a href="./portfolio.html" class="nav-link link">Portfolio</a>
             </li>
-            <li class="item"><a href="" class="nav-link link">Contacts</a></li>
+            <li class="nav-item">
+              <a href="" class="nav-link link">Contacts</a>
+            </li>
           </ul>
         </nav>
+        <button type="button" class="header-mobile-btn js-open-menu">
+          <svg class="header-icon">
+            <use href="./images/icons.svg#burger-menu"></use>
+          </svg>
+        </button>
 
         <!--Address-->
         <address class="address">
@@ -91,50 +93,50 @@
       <section class="benefits-section">
         <div class="container benefits-container">
           <h2 class="visually-hidden">Our Benefits</h2>
-          <ul class="benefits-list grid-list list">
-            <li class="benefits-item grid-item">
+          <ul class="benefits-list list">
+            <li class="benefits-item">
               <div class="icon-container">
                 <svg class="benefits-icon" width="64" height="64">
                   <use href="./images/icons.svg#antenna"></use>
                 </svg>
               </div>
-              <h3 class="section-subtitle">Strategy</h3>
+              <h3 class="benefits-subtitle">Strategy</h3>
               <p class="description">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li class="benefits-item grid-item">
+            <li class="benefits-item">
               <div class="icon-container">
                 <svg class="benefits-icon" width="64" height="64">
                   <use href="./images/icons.svg#clock"></use>
                 </svg>
               </div>
-              <h3 class="section-subtitle">Punctuality</h3>
+              <h3 class="benefits-subtitle">Punctuality</h3>
               <p class="description">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li class="benefits-item grid-item">
+            <li class="benefits-item">
               <div class="icon-container">
                 <svg class="benefits-icon" width="64" height="64">
                   <use href="./images/icons.svg#diagram"></use>
                 </svg>
               </div>
-              <h3 class="section-subtitle">Diligence</h3>
+              <h3 class="benefits-subtitle">Diligence</h3>
               <p class="description">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li class="benefits-item grid-item">
+            <li class="benefits-item">
               <div class="icon-container">
                 <svg class="benefits-icon" width="64" height="64">
                   <use href="./images/icons.svg#astronaut"></use>
                 </svg>
               </div>
-              <h3 class="section-subtitle">Technologies</h3>
+              <h3 class="benefits-subtitle">Technologies</h3>
               <p class="description">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -145,18 +147,18 @@
       </section>
 
       <!--What are we doing-->
-      <!-- <section class="works-section">
+      <section class="works-section">
         <div class="container works-container">
           <h2 class="section-title">What are we doing</h2>
-          <ul class="works-list grid-list list">
-            <li class="works-item grid-item">
+          <ul class="works-list list">
+            <li class="works-item">
               <img
                 src="./images/works/computer.jpg"
                 alt="Statictics"
                 width="360"
               />
             </li>
-            <li class="works-item grid-item">
+            <li class="works-item">
               <img
                 src="./images/works/phones.jpg"
                 alt="Communication"
@@ -164,7 +166,7 @@
               />
             </li>
 
-            <li class="works-item grid-item">
+            <li class="works-item">
               <img
                 src="./images/works/laptop.jpg"
                 alt="Advertising"
@@ -173,14 +175,14 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!--Our team-->
       <!-- <section class="team-section">
         <div class="container team-container">
           <h2 class="section-title">Our Team</h2>
-          <ul class="team-list  grid-list list">
-            <li class="team-card grid-item">
+          <ul class="team-list   list">
+            <li class="team-card ">
               <img
                 src="./images/team/mark_guerrero.jpg"
                 alt="Mark Guerrero"
@@ -245,7 +247,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team-card grid-item">
+            <li class="team-card ">
               <img
                 src="./images/team/tom_ford.jpg"
                 alt="Tom Ford"
@@ -310,7 +312,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team-card grid-item">
+            <li class="team-card ">
               <img
                 src="./images/team/camila_garcia.jpg"
                 alt="Camila Garcia"
@@ -375,7 +377,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team-card grid-item">
+            <li class="team-card ">
               <img
                 src="./images/team/daniel_wilson.jpg"
                 alt="Daniel Wilson"
@@ -448,43 +450,43 @@
       <!-- <section class="customers-section container">
         <div class="container">
           <h2 class="section-title">Customers</h2>
-          <ul class="customers-list grid-list list">
-            <li class="customers-item grid-item">
+          <ul class="customers-list  list">
+            <li class="customers-item ">
               <a href="" class="customers-link link">
                 <svg class="customers-icon" width="104" height="56">
                   <use href="./images/icons.svg#client-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="customers-item grid-item">
+            <li class="customers-item ">
               <a href="" class="customers-link link">
                 <svg class="customers-icon" width="104" height="56">
                   <use href="./images/icons.svg#client-2"></use>
                 </svg>
               </a>
             </li>
-            <li class="customers-item grid-item">
+            <li class="customers-item ">
               <a href="" class="customers-link link">
                 <svg class="customers-icon" width="104" height="56">
                   <use href="./images/icons.svg#client-3"></use>
                 </svg>
               </a>
             </li>
-            <li class="customers-item grid-item">
+            <li class="customers-item ">
               <a href="" class="customers-link link">
                 <svg class="customers-icon" width="104" height="56">
                   <use href="./images/icons.svg#client-4"></use>
                 </svg>
               </a>
             </li>
-            <li class="customers-item grid-item">
+            <li class="customers-item ">
               <a href="" class="customers-link link">
                 <svg class="customers-icon" width="104" height="56">
                   <use href="./images/icons.svg#client-5"></use>
                 </svg>
               </a>
             </li>
-            <li class="customers-item grid-item">
+            <li class="customers-item ">
               <a href="" class="customers-link link">
                 <svg class="customers-icon" width="104" height="56">
                   <use href="./images/icons.svg#client-6"></use>
@@ -607,7 +609,7 @@
           </svg>
         </button>
         <!-- Modal form -->
-        <p class="modal-caption section-subtitle">
+        <p class="modal-caption body-medium">
           Leave your contacts and we will call you back
         </p>
         <form class="modal-form" name="register_form">
