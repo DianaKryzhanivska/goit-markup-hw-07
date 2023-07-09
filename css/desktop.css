@@ -1,0 +1,39 @@
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+  }
+  .icon-container {
+    display: flex;
+  }
+  .description {
+    font-weight: 400;
+  }
+  /* HERO */
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+  .benefits-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .icon-container {
+    visibility: visible;
+  }
+  .section-subtitle {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+  }
+  /* TEAM */
+  .team-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .team-card {
+    width: calc((100% - 72px) / 4);
+  }
+}

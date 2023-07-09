@@ -1,0 +1,17 @@
+:root {
+  --brand-color: #4d5ae5;
+  --secondary-color: #2e2f42;
+  --third-color: #434455;
+  --background-color: #2e2f42;
+  --second-background-color: #f4f4fd;
+  --border-color: #e7e9fc;
+  --secondary-icons-color: #404bbf;
+  --icon-customers-color: #8e8f99;
+  --icon-bg-active-color: #31d0aa;
+  --navyblue-modal: #2e2f4266;
+  --modal-backgroung-color: #fcfcfc;
+  --light-slate-modal-text-color: #8e8f99;
+
+  --grid-gap: 24px;
+  --grid-items: 3;
+}

@@ -1,0 +1,49 @@
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  /* HEADER */
+  .header-container {
+    display: block;
+  }
+  .header-btn {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .grid-list {
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+  }
+  .grid-item {
+    width: calc(
+      100% - (var(--grid-gap) * (var(--grid-items) - 1)) / var(--grid-items)
+    );
+    /* calc(
+      100% - (var(--grid-gap) * (var(--grid-items) - 1)) / var(--grid-items)
+    ); */
+  }
+  /* HERO */
+  .hero-title {
+    color: #ffffff;
+    max-width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+  .hero-title {
+    max-width: 496px;
+    font-size: 56px;
+  }
+  /* BENEFITS */
+  .benefits-list {
+    row-gap: 24px;
+    column-gap: 72px;
+  }
+  /* TEAM */
+  .team-card {
+    width: calc((100% - 24px) / 2);
+  }
+}
