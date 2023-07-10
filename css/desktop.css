@@ -26,6 +26,9 @@
     align-items: center;
     gap: 40px;
   }
+  .contacts-link {
+    font-size: 16px;
+  }
   /* HERO */
   .hero {
     padding-top: 188px;
@@ -82,8 +85,22 @@
     width: calc((100% - 120px) / 6);
     height: 88px;
   }
+  /*  */
+  .footer-wrap {
+    gap: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  .footer-container {
+    width: 264px;
+    margin-right: 120px;
+  }
+  /*  */
   .footer-box {
     flex-wrap: nowrap;
+  }
+  .footer-block {
+    padding-left: 80px;
   }
 }
 
