@@ -108,8 +108,28 @@
   }
 
   /* TEAM */
+  .team-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .team-list {
+    display: flex;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+    justify-content: center;
+  }
   .team-card {
-    width: calc((100% - 24px) / 2);
+    margin-bottom: 0;
+  }
+  /* CUSTOMERS */
+  .customers-list {
+    gap: 72px 24px;
+  }
+  .customers-link {
+    width: 168px;
+    height: 88px;
   }
   /* MODAL */
   .modal {
@@ -118,5 +138,44 @@
   }
   .modal-caption {
     max-width: 408px;
+  }
+  /* FOOTER */
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .footer-container {
+    box-sizing: border-box;
+    margin-right: 120px;
+  }
+  .footer-box {
+    display: flex;
+    align-items: baseline;
+  }
+  .footer-link {
+    display: inline-block;
+  }
+  .footer-description {
+    max-width: 264px;
+  }
+  .footer-socials-list {
+    margin-bottom: 72px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  .footer-block {
+    margin-left: 80px;
+  }
+  .footer-form {
+    display: flex;
+    gap: 24px;
+  }
+  .subscribe-input {
+    width: 264px;
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
 }
