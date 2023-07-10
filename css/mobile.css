@@ -159,7 +159,7 @@
   border-radius: 2px;
   background-color: var(--secondary-icons-color);
   position: absolute;
-  margin-top: 25px;
+  margin-top: 21px;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -260,6 +260,11 @@
 
 .menu-active {
   color: #404bbf;
+}
+.mobile-menu-contacts-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .mobile-contacts-list {
@@ -423,6 +428,7 @@
   text-align: center;
   margin-bottom: 8px;
 
+  line-height: 1.11;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -495,6 +501,9 @@
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.team-card:last-child {
+  margin-bottom: 0;
 }
 .team-name {
   margin-bottom: 8px;
