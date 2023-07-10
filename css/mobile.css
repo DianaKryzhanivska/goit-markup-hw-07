@@ -611,8 +611,8 @@
   justify-content: center;
 }
 
-.footer-socials-list:hover,
-.footer-socials-list:focus {
+.socials-link:hover,
+.socials-link:focus {
   background-color: #31d0aa;
 }
 
