@@ -145,15 +145,29 @@
     padding-bottom: 100px;
   }
   .footer-container {
-    box-sizing: border-box;
-    margin-right: 120px;
+    max-width: 768px;
+    margin: 0;
   }
   .footer-box {
     display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
   }
+  .footer-wrap {
+    display: flex;
+    align-items: baseline;
+    gap: 24px;
+    padding-left: 92px;
+    margin-bottom: 72px;
+  }
   .footer-link {
-    display: inline-block;
+    text-align: left;
+  }
+  .footer-socials {
+    margin-bottom: 0;
+  }
+  .footer-title {
+    text-align: left;
   }
   .footer-description {
     max-width: 264px;
@@ -167,15 +181,21 @@
     gap: 16px;
   }
   .footer-block {
-    margin-left: 80px;
+    padding-left: 92px;
   }
   .footer-form {
     display: flex;
+    align-items: baseline;
     gap: 24px;
   }
+  .subscribe-subtitle {
+    text-align: left;
+  }
   .subscribe-input {
-    width: 264px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    min-width: 264px;
+    margin-bottom: 0;
+  }
+  .subscribe-button {
+    margin: 0;
   }
 }
