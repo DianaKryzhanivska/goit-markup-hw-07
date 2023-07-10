@@ -34,22 +34,12 @@
   .menu {
     display: none;
   }
-  .grid-list {
-    /* flex-wrap: wrap; */
-    flex-direction: row;
-  }
-  .grid-item {
-    width: calc(
-      100% - (var(--grid-gap) * (var(--grid-items) - 1)) / var(--grid-items)
-    );
-    /* calc(
-      100% - (var(--grid-gap) * (var(--grid-items) - 1)) / var(--grid-items)
-    ); */
-  }
-  /* HERO */
 
+  /* HERO */
   .hero {
     max-width: 1157px;
+  }
+  .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
