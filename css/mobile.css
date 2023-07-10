@@ -209,8 +209,12 @@
 }
 
 .menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   width: 100%;
-  min-height: 796px;
+  min-height: 100%;
   position: fixed;
 
   padding-top: 80px;
@@ -250,7 +254,7 @@
   align-items: baseline;
   justify-content: baseline;
   gap: 40px;
-  margin-bottom: 224px;
+  /* margin-bottom: 224px; */
 }
 
 .menu-link:hover,
@@ -261,7 +265,8 @@
 .menu-active {
   color: #404bbf;
 }
-.mobile-menu-contacts-block {
+
+.mobile-address-socials-block {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
